@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+}
+
+li::before  {
+    content: '<<';
+}
+
+li::after {
+    content: '>>';
+}
+
+a {
+    color: rgb(25, 42, 224);
+    text-decoration: none;
+}
+ 
+a:focus {
+    color: rgb(5, 4, 13);
+    text-decoration: underline;
+}
+
+p::first-letter {
+    color: rgb(215, 234, 12);
+}
+
+p::selection {
+    background-color: rgb(223, 56, 26);
+    color: rgb(65, 215, 62);
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: rgb(55, 215, 81);
+    
+}
